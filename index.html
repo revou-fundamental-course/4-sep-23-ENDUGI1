@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Kalkulator Persegi</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Persegi</h1>
+        <img src ="persegi.png" alt="ini gambar persegi"  width="200" height="200">
+        <form id="squareForm">
+            <label for="sideLength">Panjang Sisi:</label>
+            <input type="number" id="sideLength" required>
+            <button type="submit">Hitung</button>
+            <button type="button" id="resetButton">Reset</button>
+        </form>
+        <div id="result">
+            <p>Luas: <span id="areaResult">-</span></p>
+            <p>Keliling: <span id="perimeterResult">-</span></p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>
